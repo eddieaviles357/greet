@@ -5,14 +5,14 @@ app = Flask(__name__)
 
 @app.route('/welcome')
 def welcome():
-    return "<p>welcome</p>"
+    return "welcome"
 
 
 @app.route('/welcome/home')
 def welcome_home():
-    return "<p>welcome home</p>"
+    return "welcome home"
 
 
 @app.route('/welcome/back')
 def welcome_back():
-    return "<p>welcome back</p>"
+    return "welcome back"
